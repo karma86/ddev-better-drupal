@@ -9,5 +9,5 @@ project_files:
 global_files:
 
 post_install_actions:
- - 'echo "composer_root: app" >> .ddev/config.yaml'
- - 'echo "disable_settings_management: true" >> .ddev/config.yaml'
+ - 'echo "composer_root: app" >> config.yaml'
+ - 'echo "disable_settings_management: true" >> config.yaml'
