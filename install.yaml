@@ -14,8 +14,8 @@ project_files:
 
 # List of files and directories that are copied into the global .ddev directory
 global_files:
-# - commands
-# - homeadditions
+ - docker-composer.elasticsearch.yml
+ - docker-composer.kibana.yml
 
 post_install_actions:
  - 'echo "composer_root: app" >> .ddev/config.yaml'
