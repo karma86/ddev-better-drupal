@@ -18,5 +18,5 @@ global_files:
 # - homeadditions
 
 post_install_actions:
- - echo "composer_root: app" >> .ddev/config.yaml
- - echo "disable_settings_management: true" >> .ddev/config.yaml
+ - 'echo "composer_root: app" >> .ddev/config.yaml'
+ - 'echo "disable_settings_management: true" >> .ddev/config.yaml'
