@@ -9,8 +9,8 @@ pre_install_actions:
 
 # list of files and directories listed that are copied into project .ddev directory
 project_files:
- - docker-composer.elasticsearch.yml
- - docker-composer.kibana.yml
+# - docker-composer.elasticsearch.yml
+# - docker-composer.kibana.yml
 
 # List of files and directories that are copied into the global .ddev directory
 global_files:
