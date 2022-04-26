@@ -9,7 +9,6 @@ pre_install_actions:
 
 # list of files and directories listed that are copied into project .ddev directory
 project_files:
- - config.yml
  - docker-composer.elasticsearch.yml
  - docker-composer.kibana.yml
 
@@ -19,5 +18,5 @@ global_files:
 # - homeadditions
 
 post_install_actions:
-# - chmod +x ~/.ddev/commands/web/somecommand
-# - perl -pi -e 's/oldstring/newstring/g' docker-compose.better-drupal.yaml
+ - echo 'composer_root: app' >> config.yml
+ - echo 'disable_settings_management: true' >> config.yml
