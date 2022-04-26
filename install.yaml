@@ -9,6 +9,6 @@ project_files:
 global_files:
 
 post_install_actions:
- - 'sed -i 's/.*php_version: "8.0".*/php_version: "7.4"/' .ddev/config.yaml'
+ - 'sed -i "s/.*php_version: \"8.0\".*/php_version: \"7.4\"/" .ddev/config.yaml'
  - 'echo "composer_root: app" >> config.yaml'
  - 'echo "disable_settings_management: true" >> config.yaml'
